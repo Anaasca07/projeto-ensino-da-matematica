@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+label {
+    flex-basis: 100%;
+}
+
+input[type="number"] {
+    flex-basis: calc(50% - 5px);
+}
+
+button {
+    flex-basis: 100%;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
